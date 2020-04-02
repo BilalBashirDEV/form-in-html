@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>form2</title>
+          </head>
+    <body>
+        <label for="address" >ADDRESS &nbsp;&nbsp; </label>
+        <input type="text" name="address" placeholder="enter address" maxlength="100" size="50px">
+        <br/>
+        <label for="postcode">POSTCODE&nbsp;</label>
+        <input type="number" name="postcode" placeholder="enter postcode" maxlength="10" size="30px">  
+        <br/>
+        <label for="city">CITY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="city" placeholder="enter city" maxlength="20" size="30px">
+        <br/>
+        <p>choose your campus </p>
+        <select name="campus" >
+        <option value="h12">
+            H-12</option>
+            <option value="eme">
+            EME</option>
+            <option value="mcs">
+            MCS</option>
+        </select>
+        <p>choose your payment method</p>
+        <label for="paypal">paypal</label>
+        <input type="radio" name="payment" value="paypal">
+        <label for="credit">credit</label>
+        <input type="radio" name="payment" value="credit">
+        <label for="atm">atm</label>
+        <input type="radio" name="payment" value="atm">
+        <br/>
+        <label>comments</label>
+        <textarea rows="3" cols="10"> </textarea>
+        <br/>
+        <label>send email</label>
+        <input type="checkbox" name="send email" checked >
+        <br/>
+        <label>send sms</label>
+        <input type="checkbox" name="send sms" >
+        
+    </body>
+</html>
